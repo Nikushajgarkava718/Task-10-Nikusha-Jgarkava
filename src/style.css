@@ -120,7 +120,8 @@ li {
   p {
     width: 951px;
   }
-  button {
+
+  .button {
     margin-top: 60px;
     background-color: #0a22f4;
     color: white;
@@ -137,9 +138,9 @@ footer {
   background-color: #0a22f4;
   margin-top: 200px;
   color: #fff;
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
 
   .map {
     h2 {
@@ -200,4 +201,54 @@ footer {
       }
     }
   }
+}
+
+form {
+  min-width: 463px;
+  margin: 20px auto;
+}
+
+label {
+  margin-top: 40px;
+  border-bottom: 1px solid rgb(122, 122, 122);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+  gap: 5px;
+}
+
+input {
+  color: #fff;
+  font-size: 20px;
+  margin-top: 10px;
+  background: transparent;
+  border: none;
+}
+
+textarea {
+  color: #fff;
+  font-size: 20px;
+  background: transparent;
+  border: none;
+  resize: none;
+  height: 120px;
+  width: 100%;
+}
+
+.sent {
+  button {
+    margin-left: auto;
+    display: block;
+    margin-top: 60px;
+    padding: 18px 40px;
+    border-radius: 30px;
+    border: none;
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 500px;
 }

@@ -84,7 +84,7 @@
             არასოდეს არ არის გამეორებადი, შემთხვევითი სიტყვების ან ხუმრობების
             შემცველი.
           </p>
-          <button>დამატებითი ინფორმაცია</button>
+          <button class="button">დამატებითი ინფორმაცია</button>
         </div>
       </section>
     </main>
@@ -117,7 +117,29 @@
           </div>
         </div>
       </section>
-      <section></section>
+      <section class="registration">
+        <form action="#">
+          <label for="user_name">
+            <span>სახელი გვარი</span>
+            <input type="text" id="user_name" name="username" required />
+          </label>
+          <label for="user_mail"
+            ><span>ელ.ფოსტა</span>
+            <input type="email" id="user_mail" name="mail" required />
+          </label>
+          <label for="user_name"
+            ><span>ტელეფონის ნომერი</span>
+            <input type="text" id="user_number" name="phonenumber" required />
+          </label>
+          <label for="user_bio"
+            ><span>შეტყობინება</span>
+            <textarea id="user_bio" name="bio"></textarea>
+          </label>
+          <div class="sent">
+            <button type="submit">გაგზავნა</button>
+          </div>
+        </form>
+      </section>
     </footer>
   </body>
 </html>
