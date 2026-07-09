@@ -5,8 +5,9 @@
 }
 
 header {
+  height: 388px;
   background-color: #0a22f4;
-  padding: 20px;
+  padding: 40px;
   display: flex;
   justify-content: center;
   gap: 506px;
@@ -76,9 +77,10 @@ li {
 
   &:nth-child(6) {
     a {
+      border-radius: 30px;
       color: black;
       background-color: #fff;
-      padding: 18px 36px;
+      padding: 15px 36px;
       &:hover {
         color: #0a22f4;
       }
